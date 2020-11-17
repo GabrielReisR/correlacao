@@ -30,3 +30,8 @@ p_1 <- df %>%
   theme_minimal()
 
 p_1
+
+write.csv(df, "banco_de_dados.csv")
+
+
+
